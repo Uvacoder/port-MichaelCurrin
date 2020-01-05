@@ -1,4 +1,6 @@
-# Get started building your personal website 
+# Get started building your personal website
+
+_TODO Replace this section_ 
 
 ### Showcase your software development skills
 
