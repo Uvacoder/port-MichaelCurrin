@@ -1,6 +1,7 @@
-# Get started building your personal website
+# Michael Currin personal website.
 
-_TODO Replace this section_ 
+Forked from [github/personal-website](https://github.com/github/personal-website).
+
 
 ### Showcase your software development skills
 
