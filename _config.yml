@@ -7,11 +7,8 @@ plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
-  - jekyll-analytics
 
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-87705880-9
+google_analytics: UA-87705880-9
 
 exclude:
   - "Makefile"
