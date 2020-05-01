@@ -5,6 +5,7 @@ plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
+  - jekyll-analytics
 
 permalink: /:year/:month/:day/:title/
 
@@ -60,3 +61,7 @@ topics:
   - name: Jekyll
     web_url: https://github.com/topics/jekyll
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/jekyll/jekyll.png
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-87705880-9
