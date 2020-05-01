@@ -11,6 +11,7 @@ Your personal website is waiting to be personalized, though. It includes space t
 
 It's all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) (for building your website), [GitHub Pages](https://pages.github.com/) (for hosting your website), and [GitHub's API](https://developer.github.com/v3/) (for automatically populating your website with content).
 
+
 ## Installation
 
 ### Fork the `github/personal-website` repo
@@ -123,7 +124,7 @@ Your website supports linking and sharing to social media services you're using,
 ```
 social_media:
   behance: your_username
-  dribbble: your_username  
+  dribbble: your_username
   facebook: your_username
   hackerrank: your_username
   instagram: your_username

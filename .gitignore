@@ -1,6 +1,10 @@
-*.gem
-.bundle
-.sass-cache
+.bundle/
+vendor/
+
+.sass-cache/
 _site/
-Gemfile.lock
+
+# Added from original repo.
+*.gem
 **/.ruby-version
+Gemfile.lock

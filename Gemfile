@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
 
 group :jekyll_plugins do
-  gem 'github-pages', 
+  gem 'jekyll', '3.8.5'
+  gem 'github-pages'
   gem 'jekyll-analytics'
-  gem "jekyll-octicons"
+  gem 'jekyll-octicons'
 end
 
-# Covered by GH pages:
+# Covered by github-pages:
 # gem "jekyll-github-metadata"
 # gem "jemoji"
