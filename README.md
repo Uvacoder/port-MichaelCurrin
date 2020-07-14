@@ -1,7 +1,16 @@
-# Michael Currin personal website.
+# Michael Currin's personal website
 
-Forked from [github/personal-website](https://github.com/github/personal-website).
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
+
+[![View site GH Pages](https://img.shields.io/badge/View_site-GH_Pages-green?style=for-the-badge)](https://MichaelCurrin.github.io/)
+
+Forked from [github/personal-website](https://github.com/github/personal-website) repo. You can [fork](https://github.com/github/personal-website/fork) that original project to make your own.
+
+
+## Documentation
+
+From the original repo.
 
 ### Showcase your software development skills
 
@@ -32,21 +41,21 @@ Jekyll is a [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) that can be ins
 
 1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
 2. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) [gems](https://jekyllrb.com/docs/ruby-101/#gems)
-```
-gem install jekyll bundler
-```
+    ```
+    gem install jekyll bundler
+    ```
 3. Change into your new directory
-```
-cd personal-website
-```
+    ```
+    cd personal-website
+    ```
 4. Install missing gems
-```
-bundle install
-```
+    ```
+    bundle install
+    ```
 5. Build the site and make it available on a local server
-```
-bundle exec jekyll serve
-```
+    ```
+    bundle exec jekyll serve
+    ```
 
 You should see something like:
 
