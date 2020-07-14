@@ -12,30 +12,28 @@ plugins:
 google_analytics: UA-87705880-9
 
 exclude:
-  - "Makefile"
   - "LICENSE"
   - "LICENSE-source"
   - "README.md"
+  - "Makefile"
+  # Exclude in Jekyll 3 only
   - "vendor"
   - "Gemfile"
   - "Gemfile.lock"
-# The last few only need to be excluded in Jekyll 3.
 
 permalink: /:year/:month/:day/:title/
 
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
       type: "posts"
     values:
       layout: "post"
 
 projects:
+  # options are pushed OR stars
   sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
+  limit: 12
   exclude:
     archived: false
     forks: true
