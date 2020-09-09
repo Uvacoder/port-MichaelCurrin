@@ -2,8 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
+<div align="center">
 
 [![View site GH Pages](https://img.shields.io/badge/View_site-GH_Pages-green?style=for-the-badge)](https://MichaelCurrin.github.io/)
+
+</div>
 
 Forked from [github/personal-website](https://github.com/github/personal-website) repo. You can [fork](https://github.com/github/personal-website/fork) that original project to make your own.
 
@@ -41,7 +44,7 @@ Jekyll is a [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) that can be ins
 
 1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
 2. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) [gems](https://jekyllrb.com/docs/ruby-101/#gems)
-    ```
+    ```sh
     gem install jekyll bundler --user-install
     ```
 3. Change into your new directory
@@ -49,12 +52,12 @@ Jekyll is a [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) that can be ins
     cd personal-website
     ```
 4. Install gems
-    ```
+    ```sh
     bundle config set --local path vendor/bundle
     bundle install
     ```
 5. Build the site and make it available on a local server
-    ```
+    ```sh
     bundle exec jekyll serve
     ```
     You should see something like:
