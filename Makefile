@@ -1,17 +1,14 @@
-# Show summary of make targets.
-help:
-	@echo "Print lines that are not indented (targets and comments) or empty."
+default: install
+
+h help:
 	@egrep '^\S|^$$' Makefile
 
 install:
-	bundle config --local path vendor/bundle
+	bundle config set --local path vendor/bundle
 	bundle install
 
-upgrade:
-	bundle update
-
 s serve:
-	bundle exec jekyll serve
+	bundle exec jekyll serve --trace --livereload
 
-p build-prod:
-	JEKYLL_ENV='production' bundle exec jekyll build
+build:
+	JEKYLL_ENV=production bundle exec jekyll build --trace
