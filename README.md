@@ -8,12 +8,12 @@
 
 </div>
 
-Forked from [github/personal-website](https://github.com/github/personal-website) repo. You can [fork](https://github.com/github/personal-website/fork) that original project to make your own.
+Forked from the [github/personal-website](https://github.com/github/personal-website) repo. Click to [fork](https://github.com/github/personal-website/fork) that original project and make your own.
 
 
 ## Documentation
 
-From the original repo.
+Based on the original repo.
 
 ### Showcase your software development skills
 
@@ -130,7 +130,7 @@ Your website supports linking and sharing to social media services you're using,
 1. Edit your repository's `_config.yml` file.
 2. Edit the `social_media` dictionary line, and represent the services you like in a simple `key: value` form:
 
-```
+```yaml
 social_media:
   behance: your_username
   dribbble: your_username
@@ -166,7 +166,7 @@ To **add a page** to your website (e.g. detailed resume):
 2. Give it a filename that you want to be used in the page's URL (e.g. `http://yoursite.dev/filename`).
 3. At the start of your file, include the following [front matter](https://jekyllrb.com/docs/front-matter/):
 
-```
+```yaml
 ---
 layout: default
 ---
@@ -185,7 +185,7 @@ YEAR-MONTH-DAY-title.MARKUP
 
 3. At the start of your file, include the following [front matter](https://jekyllrb.com/docs/front-matter/):
 
-```
+```yaml
 ---
 title: "The title of my blog post"
 ---
