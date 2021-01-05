@@ -11,6 +11,8 @@ permalink: pretty
 
 google_analytics: UA-87705880-9
 
+# Normally you don't need the plugins field if you have :jekyll_plugins but this was needed to avod
+# a build error.
 plugins:
   - jekyll-octicons
 
