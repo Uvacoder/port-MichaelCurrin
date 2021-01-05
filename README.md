@@ -234,6 +234,15 @@ You are, of course, welcome to remove it or replace it with another framework. J
 You also have the option to add on to and extend Primer's styles by adding custom CSS to your `/assets/styles.scss` Sass stylesheet. By editing this file, you can customize your website's color scheme, typography, and more.
 
 
+## Development
+
+The Octicons gem is not listed directly under [Dependency versions](https://pages.github.com/versions/) but it still works.
+
+[octicons](https://rubygems.org/gems/octicons) on Ruby gems.
+
+[octicons](https://github.com/primer/octicons) on GitHub. Linked to from the now deprecated [jekyll-octicons](https://github.com/primer/jekyll-octicons) repo.
+
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
