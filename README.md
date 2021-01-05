@@ -1,10 +1,12 @@
 # Michael Currin's personal website
 
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/MichaelCurrin.github.io?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/MichaelCurrin.github.io/releases/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
+
 
 <div align="center">
 
-[![View site GH Pages](https://img.shields.io/badge/View_site-GH_Pages-green?style=for-the-badge)](https://MichaelCurrin.github.io/)
+[![View site GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://MichaelCurrin.github.io/)
 
 </div>
 
