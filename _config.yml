@@ -7,7 +7,7 @@ repository: MichaelCurrin/MichaelCurrin.github.io
 url: https://MichaelCurrin.github.io
 baseurl: ""
 
-permalink: /:year/:month/:day/:title/
+permalink: pretty
 
 google_analytics: UA-87705880-9
 
