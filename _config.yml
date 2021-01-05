@@ -1,11 +1,22 @@
-layout: stacked
-style: dark
+### Site metadata
+
+repository: MichaelCurrin/MichaelCurrin.github.io
+
+### Build settings ###
 
 url: https://MichaelCurrin.github.io
 baseurl: ""
-repository: MichaelCurrin/MichaelCurrin.github.io
+
+permalink: /:year/:month/:day/:title/
 
 google_analytics: UA-87705880-9
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 exclude:
   - "LICENSE"
@@ -17,14 +28,10 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
 
-permalink: /:year/:month/:day/:title/
+### Theme settings ###
 
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+layout: stacked
+style: dark
 
 projects:
   # options are pushed OR stars
