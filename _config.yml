@@ -2,12 +2,8 @@ layout: stacked
 style: dark
 
 url: https://MichaelCurrin.github.io
+baseurl: ""
 repository: MichaelCurrin/MichaelCurrin.github.io
-
-plugins:
-  - jekyll-octicons
-  - jekyll-github-metadata
-  - jemoji
 
 google_analytics: UA-87705880-9
 
