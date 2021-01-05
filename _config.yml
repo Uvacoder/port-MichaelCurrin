@@ -34,7 +34,7 @@ layout: stacked
 style: dark
 
 projects:
-  # options are pushed OR stars
+  # pushed OR stars
   sort_by: stars
   limit: 12
   exclude:
@@ -65,6 +65,10 @@ topics:
   - name: Python
     web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+
+  - name: JavaScript
+    web_url: https://github.com/topics/javascript
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
 
   - name: Bash
     web_url: https://github.com/topics/bash
