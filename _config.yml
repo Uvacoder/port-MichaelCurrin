@@ -64,18 +64,18 @@ projects:
 topics:
   - name: Python
     web_url: https://github.com/topics/python
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+    image_url: https://raw.githubusercontent.com/github/explore/master/topics/python/python.png
 
   - name: JavaScript
     web_url: https://github.com/topics/javascript
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
+    image_url: https://raw.githubusercontent.com/github/explore/master/topics/javascript/javascript.png
 
   - name: Bash
     web_url: https://github.com/topics/bash
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/bash/bash.png
+    image_url: https://raw.githubusercontent.com/github/explore/master/topics/bash/bash.png
 
   - name: Web design
 
   - name: Jekyll
     web_url: https://github.com/topics/jekyll
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/jekyll/jekyll.png
+    image_url: https://raw.githubusercontent.com/github/explore/master/topics/jekyll/jekyll.png
