@@ -11,6 +11,9 @@ permalink: pretty
 
 google_analytics: UA-87705880-9
 
+plugins:
+  - jekyll-octicons
+
 defaults:
   - scope:
       path: ""
