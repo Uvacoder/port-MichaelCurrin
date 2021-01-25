@@ -1,7 +1,7 @@
 # Michael Currin's personal website
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/MichaelCurrin.github.io?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/MichaelCurrin.github.io/releases/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 
 <div align="center">
