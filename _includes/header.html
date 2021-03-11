@@ -18,12 +18,13 @@
   {% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
 {% endif %}
 
-<!doctype html>
+<!DOCTYPE html>
 <html class="min-height-full">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>{{ page_title }}</title>
     <meta name="description" content="{{ meta_description }}" />
+  
     <meta property="og:title" content="{{ user.name }}" />
     <meta property="og:image" content="{{ user.avatar_url }}" />
     <meta property="og:description" content="{{ meta_description }}" />
@@ -32,9 +33,9 @@
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
 
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
-      {%- include google-analytics.html -%}
+        {%- include google-analytics.html -%}
     {%- endif -%}
 
-  </head>
+</head>
 
-  <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+<body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
