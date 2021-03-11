@@ -25,15 +25,15 @@
       </div>
     {% endif %}
     
-    {% if user.email %}
-      <div class="{{ metadata_styles }}">
-        {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
-        
-        <a href="mailto:{{ user.email }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
-          {{ user.email }}
+    <div class="{{ metadata_styles }}">
+        <a href="https://dev.to/michaelcurrin">
+            <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+                alt="Mike's DEV Profile" height="30" width="30"
+                style="background: white;" />
+          
+            <span>@michaelcurrin</span>
         </a>
-      </div>
-    {% endif %}
+    </div>
     
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
