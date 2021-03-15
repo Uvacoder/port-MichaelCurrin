@@ -11,7 +11,7 @@
 
 <div align="center">
     <a href="https://michaelcurrin.github.io/">
-        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="500" />
     </a>
 </div>
 
