@@ -7,6 +7,17 @@
 [![Hosted with GH Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://pages.github.com/)
 
 
+## Preview
+
+<div align="center">
+    <a href="https://michaelcurrin.github.io/">
+        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+    </a>
+</div>
+
+
+## Site
+
 <div align="center">
 
 [![View site GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://MichaelCurrin.github.io/)
