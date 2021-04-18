@@ -4,7 +4,7 @@ repository: MichaelCurrin/MichaelCurrin.github.io
 
 ### Build settings ###
 
-url: https://MichaelCurrin.github.io
+url: https://michaelcurrin.github.io
 baseurl: ""
 
 permalink: pretty
