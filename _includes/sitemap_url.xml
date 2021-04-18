@@ -1,0 +1,4 @@
+<url>
+    <loc>{{ include.url }}</loc>
+    <lastmod>{{ 'now' | date_to_xmlschema }}</lastmod>
+</url>
