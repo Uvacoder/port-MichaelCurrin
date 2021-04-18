@@ -1,0 +1,179 @@
+[
+  {
+    "name": "auto-tag",
+    "homepage_url": "https://michaelcurrin.github.io/auto-tag/",
+  },
+  {
+    "name": "badge-generator",
+    "homepage_url": "https://michaelcurrin.github.io/badge-generator/",
+  },
+  {
+    "name": "code-cookbook",
+    "homepage_url": "https://michaelcurrin.github.io/code-cookbook/",
+  },
+  {
+    "name": "coding-blog",
+    "homepage_url": "https://michaelcurrin.github.io/coding-blog/",
+  },
+  {
+    "name": "css-frameworks-demo",
+    "homepage_url": "https://michaelcurrin.github.io/css-frameworks-demo/",
+  },
+  {
+    "name": "dev-cheatsheets",
+    "homepage_url": "https://michaelcurrin.github.io/dev-cheatsheets/",
+  },
+  {
+    "name": "dev-resources",
+    "homepage_url": "https://michaelcurrin.github.io/dev-resources",
+  },
+  {
+    "name": "docsify-js-template",
+    "homepage_url": "https://michaelcurrin.github.io/docsify-js-template/#/",
+  },
+  {
+    "name": "docsify-js-tutorial",
+    "homepage_url": "https://michaelcurrin.github.io/docsify-js-tutorial/#/",
+  },
+  {
+    "name": "docsify-themeable-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/docsify-themeable-quickstart/",
+  },
+  {
+    "name": "eye-test",
+    "homepage_url": "https://michaelcurrin.github.io/eye-test",
+  },
+  {
+    "name": "food-blender-site",
+    "homepage_url": "https://michaelcurrin.github.io/food-blender-site/",
+  },
+  {
+    "name": "generic-project-template",
+    "homepage_url": "https://michaelcurrin.github.io/generic-project-template/",
+  },
+  {
+    "name": "gh-pages-no-jekyll",
+    "homepage_url": "https://michaelcurrin.github.io/gh-pages-no-jekyll/",
+  },
+  {
+    "name": "gist-viewer",
+    "homepage_url": "https://michaelcurrin.github.io/gist-viewer",
+  },
+  {
+    "name": "github-reporting-py",
+    "homepage_url": "https://michaelcurrin.github.io/github-reporting-py",
+  },
+  {
+    "name": "hexo-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/hexo-quickstart/",
+  },
+  {
+    "name": "html-timeline-generator",
+    "homepage_url": "https://michaelcurrin.github.io/html-timeline-generator",
+  },
+  {
+    "name": "jekyll-actions-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/jekyll-actions-quickstart/",
+  },
+  {
+    "name": "jekyll-blog-demo",
+    "homepage_url": "https://michaelcurrin.github.io/jekyll-blog-demo/",
+  },
+  {
+    "name": "jekyll-gh-actions-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/jekyll-gh-actions-quickstart/",
+  },
+  {
+    "name": "jekyll-theme-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/jekyll-theme-quickstart/",
+  },
+  {
+    "name": "jekyll-themed-site-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/jekyll-themed-site-quickstart/",
+  },
+  { "name": "logos", "homepage_url": "https://michaelcurrin.github.io/logos/" },
+  {
+    "name": "mkdocs-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/mkdocs-quickstart/",
+  },
+  {
+    "name": "nested-jekyll-menus",
+    "homepage_url": "https://michaelcurrin.github.io/nested-jekyll-menus/",
+  },
+  {
+    "name": "network-graphs",
+    "homepage_url": "https://michaelcurrin.github.io/network-graphs/",
+  },
+  {
+    "name": "open-air",
+    "homepage_url": "https://michaelcurrin.github.io/open-air/",
+  },
+  {
+    "name": "os-genesis",
+    "homepage_url": "https://michaelcurrin.github.io/os-genesis/",
+  },
+  {
+    "name": "preact-frontend-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/preact-frontend-quickstart/",
+  },
+  {
+    "name": "python-twitter-guide",
+    "homepage_url": "https://michaelcurrin.github.io/python-twitter-guide/",
+  },
+  {
+    "name": "python-twitter-lib",
+    "homepage_url": "https://michaelcurrin.github.io/python-twitter-lib/",
+  },
+  {
+    "name": "react-deno-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/react-deno-quickstart/",
+  },
+  {
+    "name": "react-frontend-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/react-frontend-quickstart/",
+  },
+  {
+    "name": "react-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/react-quickstart/",
+  },
+  {
+    "name": "rust-project-template",
+    "homepage_url": "https://michaelcurrin.github.io/rust-project-template",
+  },
+  {
+    "name": "simplest-jekyll",
+    "homepage_url": "https://michaelcurrin.github.io/simplest-jekyll/",
+  },
+  {
+    "name": "themeless-jekyll-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/themeless-jekyll-quickstart/",
+  },
+  {
+    "name": "trends",
+    "homepage_url": "https://michaelcurrin.github.io/trends/",
+  },
+  {
+    "name": "twitterverse",
+    "homepage_url": "https://michaelcurrin.github.io/twitterverse/",
+  },
+  {
+    "name": "unicron",
+    "homepage_url": "https://michaelcurrin.github.io/unicron/",
+  },
+  {
+    "name": "vue-frontend-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/vue-frontend-quickstart/",
+  },
+  {
+    "name": "vue-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/vue-quickstart/",
+  },
+  {
+    "name": "vuepress-quickstart",
+    "homepage_url": "https://michaelcurrin.github.io/vuepress-quickstart/",
+  },
+  {
+    "name": "workflow-builder",
+    "homepage_url": "https://michaelcurrin.github.io/workflow-builder/",
+  },
+]
