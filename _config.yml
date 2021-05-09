@@ -34,20 +34,17 @@ exclude:
 
 ### Theme settings ###
 
-# stacked | sidebar
-layout: stacked
-# light | dark
-style: dark
+layout: stacked # stacked | sidebar
 
-# Theme colors.
+style: dark # light | dark
+
 dark:
   icon_color: "#ffffff"
 light:
   icon_color: "#24292e"
 
 projects:
-  # pushed | stars
-  sort_by: stars
+  sort_by: stars # pushed | stars
   limit: 12
   exclude:
     archived: true
