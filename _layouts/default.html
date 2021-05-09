@@ -1,40 +1,46 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html lang="en" class="min-height-full">
 
-{% if site.layout == 'stacked' %}
-<div class="container-lg py-6 p-responsive text-center">
-    {% include masthead.html metadata=false %}
-
-    <div class="container-md f4 text-left border rounded-2 bg-white p-3 p-sm-5 mt-6">
-        <p class="f5"><a href="/"
-                class="d-flex flex-items-center">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:Home %}Home</a>
-        </p>
-        <h1 class="f00-light lh-condensed mb-5">{{ page.title }}</h1>
-        {{ content }}
-    </div>
-</div>
+{% if site.style == 'dark' %}
+{% assign icon_color = "#ffffff" %}
 {% else %}
-<div
-    class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
-    <div
-        class="flex-self-stretch {% if site.style == 'dark' %}bg-gray-dark{% else %}border-md-right border-gray-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-6">
-        {% include masthead.html metadata=true %}
-    </div>
-
-    <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-light"
-        {% if site.style == 'dark' %}style="background-color: #2f363d !important" {% endif %}>
-        <div class="mx-auto" style="max-width: 900px;">
-            <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
-                <div class="f4 {% if site.style == 'dark' %}text-white{% endif %}">
-                    <p class="f5"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}"
-                            class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a>
-                    </p>
-                    <h1 class="f00-light lh-condensed mb-5">{{ page.title }}</h1>
-                    {{ content }}
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{% assign icon_color = "#24292e" %}
 {% endif %}
 
-{% include footer.html %}
+{% assign posts_total = site.posts | size %}
+
+{% assign user = site.github.owner %}
+
+{% if page.path contains '_posts' %}
+{% assign page_title = page.title %}
+{% assign meta_description = page.content | strip_html | strip_newlines | xml_escape | truncate: 300 %}
+{% else %}
+{% assign page_title = user.name %}
+{% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
+{% endif %}
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page_title }}</title>
+    <meta name="description" content="{{ meta_description }}" />
+
+    <!-- TODO use seo plugin instead -->
+    <meta property="og:title" content="{{ user.name }}" />
+    <meta property="og:image" content="{{ user.avatar_url }}" />
+    <meta property="og:description" content="{{ meta_description }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
+
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+    {%- endif -%}
+
+</head>
+
+<body class="bg-white min-height-full"
+    {% if site.style == 'dark' %}style="background-color: #2f363d !important" {% endif %}>
+    {{ content }}
+</body>
+
+</html>
