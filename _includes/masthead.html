@@ -1,25 +1,27 @@
 <header>
-    {% if site.layout == 'stacked' %}
-    {% assign metadata_styles = 'd-md-inline-block mx-3 mb-1 mb-md-0' %}
-    {% else %}
-    {% assign metadata_styles = 'd-flex flex-items-center mb-3' %}
-    {% endif %}
-
-    {% assign icon_color = site[site.style].icon_color %}
-
     {% assign user = site.github.owner %}
 
-    <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
+    <div id="profile">
+        <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
 
-    <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">
-        {% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}
-    </h1>
+        <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">
+            {% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}
+        </h1>
 
-    <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-        {{ user.bio }}
-    </p>
+        <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
+            {{ user.bio }}
+        </p>
+    </div>
 
     <div id="metadata" class="f4 mb-6">
+        {% assign icon_color = site[site.style].icon_color %}
+
+        {% if site.layout == 'stacked' %}
+        {% assign metadata_styles = 'd-md-inline-block mx-3 mb-1 mb-md-0' %}
+        {% else %}
+        {% assign metadata_styles = 'd-flex flex-items-center mb-3' %}
+        {% endif %}
+
         {% if user.name %}
         <div class="{{ metadata_styles }}">
             {% octicon mark-github height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
