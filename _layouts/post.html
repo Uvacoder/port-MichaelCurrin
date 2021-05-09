@@ -4,7 +4,7 @@ layout: default
 
 {% if site.layout == 'stacked' %}
 <div class="container-lg py-6 p-responsive text-center">
-    {% include masthead.html metadata=false %}
+    {% include masthead.html %}
 
     <div class="container-md f4 text-left border rounded-2 bg-white p-3 p-sm-5 mt-6">
         <p class="f5"><a href="/"
@@ -12,7 +12,8 @@ layout: default
         </p>
         <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
         <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">
-            Published {{ page.date | date: "%b %d, %Y"}}</p>
+            Published {{ page.date | date: "%b %d, %Y"}}
+        </p>
 
         {% include post-body.html post_body=content %}
     </div>
@@ -22,7 +23,7 @@ layout: default
     class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
     <div
         class="flex-self-stretch {% if site.style == 'dark' %}bg-gray-dark{% else %}border-md-right border-gray-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-6">
-        {% include masthead.html metadata=true %}
+        {% include masthead.html %}
     </div>
 
     {% assign icon_color = site[site.style].icon_color %}
