@@ -39,6 +39,12 @@ layout: stacked
 # light | dark
 style: dark
 
+# Theme colors.
+dark:
+  icon_color: "#ffffff"
+light:
+  icon_color: "#24292e"
+
 projects:
   # pushed | stars
   sort_by: stars

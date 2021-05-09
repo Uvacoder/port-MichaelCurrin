@@ -1,8 +1,4 @@
-{% if site.style == 'dark' %}
-{% assign icon_color = "#ffffff" %}
-{% else %}
-{% assign icon_color = "#24292e" %}
-{% endif %}
+{% assign icon_color = site[site.style].icon_color %}
 
 {% assign content = page.content %}
 
