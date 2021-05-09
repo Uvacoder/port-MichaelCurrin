@@ -59,6 +59,10 @@
   min-height: 100vh;
 }
 
+#metadata a > span:hover {
+  color: darken(#fff, 15%) !important;
+}
+
 // Primer theme removes this, which works fine on repos. But add it back on the links bar.
 #metadata a > span {
   text-decoration: underline;
