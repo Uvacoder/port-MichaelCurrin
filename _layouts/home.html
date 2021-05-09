@@ -20,6 +20,7 @@ layout: default
     </div>
     {% endif %}
 
+    {% assign posts_total = site.posts | size %}
     {% unless posts_total == 0 %}
     <div class="my-6">
         {% include thoughts.html %}
