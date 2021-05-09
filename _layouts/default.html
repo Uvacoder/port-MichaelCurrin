@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" class="min-height-full">
 
-{% assign posts_total = site.posts | size %}
-
-{% assign user = site.github.owner %}
-
-{% if page.path contains '_posts' %}
-{% assign page_title = page.title %}
-{% assign meta_description = page.content | strip_html | strip_newlines | xml_escape | truncate: 300 %}
-{% else %}
-{% assign page_title = user.name %}
-{% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
-{% endif %}
-
 <head>
     <meta charset="utf-8">
+
+    {% assign user = site.github.owner %}
+
+    {% if page.layout == 'post' %}
+    {% assign page_title = page.title %}
+    {% assign meta_description = page.excerpt | truncate: 300 %}
+    {% else %}
+    {% assign page_title = user.name %}
+    {% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
+    {% endif %}
 
     <title>{{ page_title }}</title>
     <meta name="description" content="{{ meta_description }}" />
