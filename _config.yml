@@ -24,14 +24,13 @@ defaults:
       layout: "post"
 
 exclude:
-  - "LICENSE"
-  - "LICENSE-source"
-  - "README.md"
-  - "Makefile"
+  - LICENSE
+  - LICENSE-source
+  - README.md
+  - Makefile
   # Exclude in Jekyll 3 only
-  - "vendor"
-  - "Gemfile"
-  - "Gemfile.lock"
+  - vendor/
+  - Gemfile
 
 ### Theme settings ###
 
