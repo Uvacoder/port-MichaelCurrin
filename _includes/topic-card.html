@@ -10,9 +10,15 @@
         #
     </div>
     {% endif %}
-    <p class="f3 lh-condensed text-center link-gray-dark mb-0 mt-1">{{ topic.name }}</p>
+
+    <p class="f3 lh-condensed text-center link-gray-dark mb-0 mt-1">
+        {{ topic.name }}
+    </p>
+
     {% if topic.description %}
-    <p class="f5 text-gray text-center mb-0 mt-1">{{ topic.description }}</p>
+    <p class="f5 text-gray text-center mb-0 mt-1">
+        {{ topic.description }}
+    </p>
     {% endif %}
 </a>
 {% else %}
@@ -27,9 +33,15 @@
         #
     </div>
     {% endif %}
-    <p class="f3 lh-condensed text-center mb-0 mt-1">{{ topic.name }}</p>
+
+    <p class="f3 lh-condensed text-center mb-0 mt-1">
+        {{ topic.name }}
+    </p>
+
     {% if topic.description %}
-    <p class="f5 text-gray text-center mb-0 mt-1">{{ topic.description }}</p>
+    <p class="f5 text-gray text-center mb-0 mt-1">
+        {{ topic.description }}
+    </p>
     {% endif %}
 </div>
 {% endif %}
