@@ -15,14 +15,14 @@
 </p>
 
 {% if include.metadata %}
-<div class="f4 mb-6">
+<div id="metadata" class="f4 mb-6">
     {% if user.name %}
     <div class="{{ metadata_styles }}">
         {% octicon mark-github height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
 
         <a href="https://github.com/{{ user.login }}"
             {% if site.style == 'dark' %}class="text-white" {% endif %}>
-            @{{ user.login }}
+            <span>@{{ user.login }}</span>
         </a>
     </div>
     {% endif %}
