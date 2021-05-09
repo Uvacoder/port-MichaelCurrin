@@ -4,7 +4,7 @@ layout: default
 
 {% if site.layout == 'stacked' %}
 <div class="container-lg py-6 p-responsive text-center">
-    {% include masthead.html metadata=true %}
+    {% include masthead.html %}
 
     <div {% if site.style == 'dark' %}class="text-white" {% endif %}>
         {{ content }}
