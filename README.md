@@ -1,4 +1,5 @@
-# Michael Currin's personal website
+# Michael Currin's website
+> Personal website dev portfolio
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/MichaelCurrin.github.io?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/MichaelCurrin.github.io/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
