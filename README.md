@@ -12,7 +12,10 @@
 
 <div align="center">
     <a href="https://michaelcurrin.github.io/">
-        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="500" />
+        <img src="/sample.png" 
+           alt="Sample screenshot" 
+           title="Go to site" 
+           width="500" />
     </a>
 </div>
 
@@ -25,10 +28,13 @@
 
 </div>
 
-Forked from the [github/personal-website](https://github.com/github/personal-website) repo. Click to [fork](https://github.com/github/personal-website/fork) that original project and make your own.
+Forked from the [github/personal-website](https://github.com/github/personal-website) repo. 
+
+You can [fork](https://github.com/github/personal-website/fork) that original project and make your own.
 
 
 ## Development
+> Notes for editing this repo
 
 ### Content and templates
 
