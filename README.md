@@ -62,4 +62,8 @@ The Octicons gem is _not_ listed directly under [Dependency versions](https://pa
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The original repo is available [MIT License](https://opensource.org/licenses/MIT).
+
+Content and styling has been customized.
+
+Also a refactor was done on the messy non-standard code.
