@@ -10,7 +10,11 @@
                  style="max-width: 150px;" />
 
             <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">
-                {% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}
+                {% if user.name %}
+                    {{ user.name }}
+                {% else %}
+                    {{ user.login }}
+                {% endif %}
             </h1>
         </a>
 
@@ -25,7 +29,7 @@
         {% if site.layout == 'stacked' %}
             {% assign metadata_styles = 'd-md-inline-block mx-3 mb-1 mb-md-0' %}
         {% else %}
-         {% assign metadata_styles = 'd-flex flex-items-center mb-3' %}
+            {% assign metadata_styles = 'd-flex flex-items-center mb-3' %}
         {% endif %}
 
         {% if user.name %}
@@ -45,6 +49,7 @@
             <a href=" https://michaelcurrin.github.io/coding-blog/"
                 class="tooltipped tooltipped-se {% if site.style == 'dark' %}text-white" {% endif %}
                 aria-label="Blog on GH Pages">
+
                 <span>Coding Blog</span>
             </a>
         </div>
@@ -89,9 +94,9 @@
         {% endif %}
 
         {% if user.hireable %}
-        <span title="Hire me"
-            class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for
-            hire</span>
+            <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">
+                Available for hire
+            </span>
         {% endif %}
     </div>
 
