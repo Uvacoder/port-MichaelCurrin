@@ -84,7 +84,7 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/master/topics/bash/bash.png
 
   - name: Jekyll
-    web_url: https://github.com/topics/jekyll
+    web_url: https://michael-currin.netlify.app/topics/#topic-jekyll
     image_url: https://raw.githubusercontent.com/github/explore/master/topics/jekyll/jekyll.png
 
   - name: Go
