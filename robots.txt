@@ -1,4 +1,4 @@
 ---
-layout: nil
+layout: null
 ---
 Sitemap: {{ 'sitemap.xml' | absolute_url }}
