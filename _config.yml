@@ -28,8 +28,8 @@ defaults:
       layout: "page"
 
 exclude:
+  - docs/
   - LICENSE
-  - LICENSE-source
   - README.md
   - Makefile
   # Exclude in Jekyll 3 only
@@ -60,7 +60,7 @@ social_media:
   # instagram: your_username
   # linkedin: your_username
   # medium: your_username
-  # stackoverflow: 6250733 # Set by decided not to use
+  # stackoverflow: 6250733 # Set but decided not to use
   # twitter: your_username
   # website: http://your_website_url
   # youtube: your_username
