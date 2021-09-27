@@ -65,21 +65,28 @@ social_media:
   # website: http://your_website_url
   # youtube: your_username
 
+# source means original, i.e. not forked.
 topics:
   - name: Python
-    web_url: https://github.com/topics/python
+    web_url: https://github.com/MichaelCurrin?tab=repositories&q=&type=source&language=python&sort=
     image_url: https://raw.githubusercontent.com/github/explore/master/topics/python/python.png
 
   - name: JavaScript
-    web_url: https://github.com/topics/javascript
+    web_url: https://github.com/MichaelCurrin?tab=repositories&q=&type=source&language=javascript&sort=
     image_url: https://raw.githubusercontent.com/github/explore/master/topics/javascript/javascript.png
 
-  - name: Bash
-    web_url: https://github.com/topics/bash
-    image_url: https://raw.githubusercontent.com/github/explore/master/topics/bash/bash.png
+  - name: TypeScript
+    web_url: https://github.com/MichaelCurrin?tab=repositories&q=&type=source&language=typescript&sort=
+    image_url: https://raw.githubusercontent.com/github/explore/master/topics/typescript/typescript.png
 
-  - name: Web design
+  - name: Bash / Shell
+    web_url: https://github.com/MichaelCurrin?tab=repositories&q=&type=source&language=shell&sort=
+    image_url: https://raw.githubusercontent.com/github/explore/master/topics/bash/bash.png
 
   - name: Jekyll
     web_url: https://github.com/topics/jekyll
     image_url: https://raw.githubusercontent.com/github/explore/master/topics/jekyll/jekyll.png
+
+  - name: Go
+    web_url: https://github.com/MichaelCurrin?tab=repositories&q=&type=source&language=go&sort=
+    image_url: https://raw.githubusercontent.com/github/explore/master/topics/go/go.png
