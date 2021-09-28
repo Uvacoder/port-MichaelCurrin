@@ -71,3 +71,13 @@
 .left {
   text-align: left !important;
 }
+
+// Fix up squashed mobile view.
+
+body {
+ padding: 1em; 
+}
+
+ul, ol {
+ padding: 0 0 1em 1em;
+}
