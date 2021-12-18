@@ -8,12 +8,12 @@ and MIT to bring short courses, degrees, and bootcamps to online students
 globally.
 
 I love to build automation tools and data science projects using **Python** and
-sometimes I use it as my backend. Most of my spare time is spent making websites with **JavaScript** (using Vue)
+sometimes I use it as my website backend. Most of my spare time is spent making websites with **JavaScript** (using Vue or plain JS)
 or static site generators (like Jekyll). I'm also learning **Go**.
 
 I like to **learn** from others and to giving **coaching** - whether at meetup events, on blogs, on online
 forums or through one-on-one video chats. I've even dabbled with hosting live coding sessions on
-YouTube.
+YouTube. And done some building and programming with Arduino and Raspberry Pi.
 
 I'm also into:
 
