@@ -81,3 +81,12 @@ body {
 ul, ol {
  padding: 0 0 1em 1em;
 }
+
+p a {
+  color: #a2c0e3;
+  text-decoration: underline;
+}
+
+p a:hover {
+  color: darken(#fff, 15%) !important;
+}
