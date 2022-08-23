@@ -10,9 +10,9 @@ I work at **ACT Commodities** in Amsterdam, where I help the world move to susta
 
 I keep track of how to do things across many languages, frameworks, and operating systems by maintaining these sites which I created. They are open source too, if you want to request or submit a change.
 
-- [Dev Cheatsheets](https://micahelcurrin.github.io/dev-cheatsheets)
-- [Code Cookbook](https://micahelcurrin.github.io/code-cookbook)
-- [Dev Resources](https://micahelcurrin.github.io/dev-resources)
+- [Dev Cheatsheets](https://michaelcurrin.github.io/dev-cheatsheets/)
+- [Code Cookbook](https://michaelcurrin.github.io/code-cookbook/)
+- [Dev Resources](https://michaelcurrin.github.io/dev-resources/)
 
 I like to **learn** from others and to giving **coaching** to colleagues and aspiring developers. Whether through hackathons, conferences, blogs, online forums or through one-on-one video chats (like with [Lunchclub][]). I enjoy contributing to the open source community too.
 
